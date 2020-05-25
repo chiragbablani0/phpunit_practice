@@ -4,9 +4,9 @@ This repository includes some tests written to practice unit testing in phpunit.
 
 This is a small task done before writing a module in wordpress for the honeypot project and integrating tests in it.
 
-In the [/app](https://github.com/chiragbablani0/phpunit_practice/tree/master/app) directory there consists of different directories which includes files of getter and setter functions used for the [/tests](hhttps://github.com/chiragbablani0/phpunit_practice/tree/master/tests/unit).
+In the [/app](https://github.com/chiragbablani0/phpunit_practice/tree/master/app) directory there consists of different directories which includes files of getter and setter functions used for the [/tests](https://github.com/chiragbablani0/phpunit_practice/tree/master/tests/unit).
 
-The  [/tests](hhttps://github.com/chiragbablani0/phpunit_practice/tree/master/tests/unit) consists the files of testing.
+The  [/tests](https://github.com/chiragbablani0/phpunit_practice/tree/master/tests/unit) consists the files of testing.
 
 **How to use these files**
 
