@@ -1,4 +1,6 @@
 <?php
+/** CollectionTest.php is the file which has defined functions in app\models\Collection.php 
+it asserts the value with the functions returning from the Collection.php file**/
 
 class CollectionTest extends \PHPUnit\Framework\TestCase
 {
@@ -39,6 +41,7 @@ public function items_returned_match_items_passed_in()
 	{
 		$collection = new \App\Support\Collection();
 		$this->assertionInstanceOf(IteratorAggregate::class, $collection);
+
 	}
 
 

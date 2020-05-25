@@ -1,4 +1,6 @@
 <?php
+/** UserTest is the file which has defined functions in app\models\User.php 
+it asserts the value with the functions returning from the User.php file**/
 
 class UserTest extends \PHPUnit\Framework\TestCase
 {
@@ -9,6 +11,8 @@ class UserTest extends \PHPUnit\Framework\TestCase
 		$user->setFirstName('vuldo');
 
 		$this->assertEquals($user->getFirstName(),'vuldo');
+
+		//The assertEquals() function is a builtin function in PHPUnit and is used to assert whether the actual obtained value is equals to expected value or not.
 	}
 	public function testThatWeCanGetTheLastName()
 	{
@@ -56,9 +60,12 @@ class UserTest extends \PHPUnit\Framework\TestCase
 		$this->assertArrayHasKey('full_name',$emailVariables);
 		$this->assertArrayHasKey('email',$emailVariables);
 
+		//providing key to the emailvariables which works as an array
+
 		$this->assertEquals($emailVariables['full_name'],'vuldo yolo');
 
 		$this->assertEquals($emailVariables['email'],'vuldo@gmail.com');
+
 
 	}
 }

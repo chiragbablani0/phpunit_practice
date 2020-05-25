@@ -1,5 +1,5 @@
 <?php
-
+/** This file defines the function which are called in tests/unit/UserTest.php**/
 namespace App\Models;
 
 class User
