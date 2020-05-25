@@ -8,7 +8,7 @@ In the [/app](https://github.com/chiragbablani0/phpunit_practice/tree/master/app
 
 The  [/tests](https://github.com/chiragbablani0/phpunit_practice/tree/master/tests/unit) consists the files of testing.
 
-**How to use these files**
+-**How to use these files**
 
 Just clone the repository and you will have the phpunit files in your local
 
