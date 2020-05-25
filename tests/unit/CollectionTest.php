@@ -40,7 +40,7 @@ public function items_returned_match_items_passed_in()
 	public function collection_is_instance_of_iterator_aggregate()
 	{
 		$collection = new \App\Support\Collection();
-		$this->assertionInstanceOf(IteratorAggregate::class, $collection);
+		$this->assertInstanceOf(IteratorAggregate::class, $collection);
 
 	}
 
